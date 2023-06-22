@@ -20,6 +20,8 @@ btns.forEach(function (btn) {
             count += 0.5;
         } else if (styles.contains("divideBy2")) {
             count /= 2;
+        } else if (styles.contains("PohCaralho")) {
+            window.close();
         } else {
             count = 0;
         }
